@@ -749,7 +749,7 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   justify-content: center; /* Centers content horizontally */
   align-items: center; /* Centers content vertically */
   flex-direction: column;
-  height: 70vh; /* Full viewport height */
+  height: 100vh; /* Full viewport height */
 }
 
 #contact .container img {
@@ -758,7 +758,7 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%; /* Adjusted to make it smaller */
+  width: 50%; /* Adjusted to make it smaller */
 }
 
 #contact .container .call {
@@ -769,7 +769,7 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   padding-bottom: 30px;
   margin: 0 auto 40px auto; /* Center the box */
   box-shadow: 2px 2px 5px 5px #e7e6e6;
-  width: 1000px; /* Increased width */
+  width: 50%; /* Reduced box width */
 }
 
 #contact .container .info {
@@ -780,7 +780,7 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   padding-bottom: 30px;
   margin: 0 auto 40px auto; /* Center the box */
   box-shadow: 2px 2px 5px 5px #e7e6e6;
-  width: 100%; /* Increased width */
+  width: 50%; /* Reduced box width */
 }
 
 #contact .container .col-md-6 {
@@ -897,5 +897,4 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   text-align: center;
   margin-top: 30px;
 }
-/* Center the breadcrumb */ 
 
