@@ -27,7 +27,7 @@ body {
 
 .nav-link {
   color: #555; /* Text color of the nav links */
-  font-size: 30px; /* Adjust the font size */
+  font-size: 20px; /* Adjust the font size */
   font-weight: bold; /* Bold font for links */
   text-transform: capitalize; /* Capitalize first letter */
   padding: 5px 10px; /* Padding for spacing around the links */
@@ -207,8 +207,9 @@ body {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  width: 550px; /* Width of each card */
+  width: 100px; /* Reduce width */
 }
+
 .card-btn {
   width: 150px; /* Adjust width */
   height: 50px; /* Adjust height */
@@ -230,7 +231,7 @@ body {
 
 /* Card Heading */
 .card h3 {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 700;
   color:red ;
   margin-bottom: 10px;
@@ -898,10 +899,8 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   margin-top: 30px;
 }
 .details-container {
-    width: 300px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
-
-
