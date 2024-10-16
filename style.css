@@ -747,60 +747,59 @@ input[type="text"],  input[type="date"], input[type="tel"] {
 }
 #contact .container {
   display: flex;
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
+  justify-content: center; 
+  align-items: center; 
   flex-direction: column;
-  height: 100vh; /* Full viewport height */
+  height: 70vh; 
 }
 
-#contact .container img {
+/* #contact .container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 50%; /* Adjusted to make it smaller */
-}
+  width: 50%; 
+} */
 
-#contact .container .call {
+/* #contact .container .call {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 30px;
-  margin: 0 auto 40px auto; /* Center the box */
+  margin: 0 auto 40px auto; 
   box-shadow: 2px 2px 5px 5px #e7e6e6;
-  width: 50%; /* Reduced box width */
-}
-
-#contact .container .info {
+  width: 50%; 
+} */
+/* #contact .container .info {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 30px;
-  margin: 0 auto 40px auto; /* Center the box */
+  margin: 0 auto 40px auto; 
   box-shadow: 2px 2px 5px 5px #e7e6e6;
-  width: 50%; /* Reduced box width */
-}
+  width: 50%; 
+} */
 
-#contact .container .col-md-6 {
-  max-width: 100%; /* Make it full width of the box */
-}
+/* #contact .container .col-md-6 {
+  max-width: 100%; 
+} */
 
-#contact .container .call hr {
+/* #contact .container .call hr {
   margin-bottom: 40px;
   margin-top: 40px;
-}
-
+} */
+/* 
 #contact .container .call h4 {
   padding-left: 20px;
   padding-bottom: 10px;
-  font-size: 18px; /* Adjusted font size for responsiveness */
-  line-height: 1.5; /* Adjusted line height for readability */
-}
+  font-size: 18px; 
+  line-height: 1.5;
+} */
 
-#contact .container .call h3 {
+/* #contact .container .call h3 {
   margin: 40px 0px 30px 0px;
   text-align: center;
   color: darkred;
@@ -812,7 +811,7 @@ input[type="text"],  input[type="date"], input[type="tel"] {
 
 #contact .container .call .icons .fab {
   padding: 0px 15px 0px 15px;
-}
+} */
 
 #contact .container .call .icons i:hover {
   transform: translate(0, -10px);
@@ -904,3 +903,4 @@ input[type="text"],  input[type="date"], input[type="tel"] {
   padding: 20px;
   text-align: center;
 }
+
